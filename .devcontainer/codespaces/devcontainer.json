@@ -1,0 +1,16 @@
+{
+	"name": "cloudera/quickstart:latest",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+	//"image": "responsivecodex/alpine-nodejs",
+	"forwardPorts": [
+	3000
+	],
+	"extensions": [
+		
+	],
+	"containerEnv": {
+	}
+}
+
